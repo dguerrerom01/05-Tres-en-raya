@@ -9,9 +9,9 @@ public class TresNRaya {
 
 	// botonx botony almacena las coordenadas de la casilla destino
 	public int destinox, destinoy;
-	// Cuando mover est� a true significa que la pieza seleccionada es para
+	// Cuando mover esto a true significa que la pieza seleccionada es para
 	// mover
-	// Si est� a false la casilla seleccionada no est
+	// Si esto a false la casilla seleccionada no est
 	public boolean mover = true;
 
 	/**
@@ -57,7 +57,7 @@ public class TresNRaya {
 	 * casilla libre adyacente libre
 	 * 
 	 * @return true si encuentra al menos una casilla libre contigua false si la
-	 *         pieza est� bloqueada
+	 *         pieza esta bloqueada
 	 */
 	private boolean comprobarBloqueada() {
 		for (int x = destinox - 1; x <= destinox + 1; x++)
@@ -70,7 +70,7 @@ public class TresNRaya {
 
 	/**
 	 * Si en la casilla determinada por las coordenadas x e y se encuentra con
-	 * un cero seignifica que la casilla est� libre
+	 * un cero seignifica que la casilla estalibre
 	 * 
 	 * @param coordenada
 	 *            de fila
