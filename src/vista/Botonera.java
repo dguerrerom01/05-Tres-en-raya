@@ -6,6 +6,7 @@ import controlador.MyActionListener;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
+import java.awt.GridLayout;
 
 public class Botonera extends JPanel {
 
@@ -16,8 +17,8 @@ public class Botonera extends JPanel {
 	 * Create the panel.
 	 */
 	public Botonera(int x,int y) {
-		setLayout(null);
 		this.setBounds(x, y, this.anchoPanel, this.altoPanel);
+		setLayout(new GridLayout(3, 0, 0, 0));
 		iniciarBotonera();
 	}
 	private void iniciarBotonera(){
